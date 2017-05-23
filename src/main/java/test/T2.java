@@ -49,7 +49,7 @@ public class T2 {
             hashtable.put(c,hashtable.get(c) == null ? 1 : hashtable.get(c) + 1);
         }
         //获取字母最多的个数
-        int max = Collections.max(hashtable.values()); // 1  ***
+        int max = Collections.max(hashtable.values()); // 1  ***  工具类Collections的max方法
 
 //        int max = 0;// 2
 //        for (Map.Entry<Character, Integer> entry : hashtable.entrySet()) {// 2
