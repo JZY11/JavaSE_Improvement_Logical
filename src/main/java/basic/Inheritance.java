@@ -5,7 +5,7 @@ package basic;
  * on 2017/8/14.
  * JavaSE_Improvement_Logical.
  */
-public class Inheritance {
+public class Inheritance {// 继承
     public static void main(String[] args) {
         D d = new D();
         d.d();
